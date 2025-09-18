@@ -28,7 +28,7 @@ function App() {
         <HeroSection language={language} />
         <TechnologiesSection language={language} />
         <ServicesSection language={language} />
-        <ContactSection language={language} />
+        {/* <ContactSection language={language} /> */}
         
       </main>
       <WhatsAppButton language={language} />
