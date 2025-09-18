@@ -4,6 +4,7 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/SolveU/",      // 👈 Nombre EXACTO del repositorio en GitHub
   plugins: [react()],
   resolve: {
     alias: {
