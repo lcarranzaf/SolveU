@@ -49,7 +49,7 @@ const HeroSection = ({ language }) => {
   return (
     <section
       id="inicio"
-      className="relative bg-white dark:bg-gray-900 py-10 lg:py-14 overflow-hidden"
+      className="relative bg-white dark:bg-gray-900 pt-20 pb-10 lg:pb-14 overflow-hidden"
     >
       {/* Fondos suaves */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50/50 via-white to-blue-50/30 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"></div>

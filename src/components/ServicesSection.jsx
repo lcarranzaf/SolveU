@@ -5,50 +5,90 @@ const ServicesSection = ({ language }) => {
   const texts = {
     es: {
       title: "Nuestros servicios",
+      subtitle:
+        "Ofrecemos soluciones modernas y escalables para impulsar tu negocio digital.",
       service1: {
         title: "Aplicación web completa",
         description:
           "Desarrollo de aplicaciones web robustas y escalables con tecnologías modernas. Desde la arquitectura hasta la implementación, creo soluciones completas que impulsan tu negocio.",
         includes: "Incluye:",
-        features: ["Frontend & Backend", "Base de datos", "Autenticación", "API REST", "Responsive Design"],
+        features: [
+          "Frontend & Backend",
+          "Base de datos",
+          "Autenticación",
+          "API REST",
+          "Responsive Design",
+        ],
       },
       service2: {
         title: "Páginas web",
         description:
           "Diseño y desarrollo de sitios web profesionales, landing pages y portfolios. Optimizados para SEO y con diseño responsive que se adapta a cualquier dispositivo.",
         includes: "Incluye:",
-        features: ["Diseño Responsive", "SEO Optimizado", "Carga Rápida", "CMS Integrado", "Analytics"],
+        features: [
+          "Diseño Responsive",
+          "SEO Optimizado",
+          "Carga Rápida",
+          "CMS Integrado",
+          "Analytics",
+        ],
       },
       service3: {
         title: "Tareas de programación",
         description:
           "Soluciones específicas para tus necesidades técnicas. Desde automatización de procesos hasta integración de APIs y optimización de código existente.",
         includes: "Incluye:",
-        features: ["Automatización", "Integración APIs", "Optimización", "Debugging", "Consultoría"],
+        features: [
+          "Automatización",
+          "Integración APIs",
+          "Optimización",
+          "Debugging",
+          "Consultoría",
+        ],
       },
     },
     en: {
       title: "Our services",
+      subtitle:
+        "We offer modern and scalable solutions to boost your digital business.",
       service1: {
         title: "Complete web application",
         description:
           "Development of robust and scalable web applications with modern technologies. From architecture to implementation, I create complete solutions that drive your business.",
         includes: "Includes:",
-        features: ["Frontend & Backend", "Database", "Authentication", "REST API", "Responsive Design"],
+        features: [
+          "Frontend & Backend",
+          "Database",
+          "Authentication",
+          "REST API",
+          "Responsive Design",
+        ],
       },
       service2: {
         title: "Web pages",
         description:
           "Design and development of professional websites, landing pages and portfolios. Optimized for SEO and with responsive design that adapts to any device.",
         includes: "Includes:",
-        features: ["Responsive Design", "SEO Optimized", "Fast Loading", "Integrated CMS", "Analytics"],
+        features: [
+          "Responsive Design",
+          "SEO Optimized",
+          "Fast Loading",
+          "Integrated CMS",
+          "Analytics",
+        ],
       },
       service3: {
         title: "Programming tasks",
         description:
           "Specific solutions for your technical needs. From process automation to API integration and existing code optimization.",
         includes: "Includes:",
-        features: ["Automation", "API Integration", "Optimization", "Debugging", "Consulting"],
+        features: [
+          "Automation",
+          "API Integration",
+          "Optimization",
+          "Debugging",
+          "Consulting",
+        ],
       },
     },
   }
@@ -71,7 +111,10 @@ const ServicesSection = ({ language }) => {
   ]
 
   return (
-    <section id="ofrecemos" className="relative py-20 bg-gradient-to-br from-blue-100 via-white to-blue-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
+    <section
+      id="ofrecemos"
+      className="relative py-20 bg-gradient-to-br from-blue-100 via-white to-blue-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900"
+    >
       {/* Fondo blur decorativo */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 top-20 left-10 animate-pulse"></div>
@@ -85,7 +128,7 @@ const ServicesSection = ({ language }) => {
             {t.title}
           </h2>
           <p className="text-gray-700 dark:text-gray-400 text-sm sm:text-base max-w-2xl mx-auto">
-            Ofrezco soluciones modernas y escalables para impulsar tu negocio digital.
+            {t.subtitle}
           </p>
         </div>
 
