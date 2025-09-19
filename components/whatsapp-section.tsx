@@ -40,7 +40,7 @@ export default function WhatsAppSection({ language }: WhatsAppSectionProps) {
   }
 
   return (
-    <section className="py-20 bg-muted relative">
+    <section id="contact" className="py-20 bg-muted relative">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">{t.title}</h2>
         <h3 className="text-xl text-muted-foreground mb-4">{t.subtitle}</h3>

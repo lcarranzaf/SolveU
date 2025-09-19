@@ -48,7 +48,7 @@ const HeroSection = ({ language }) => {
 
   return (
     <section
-      id="inicio"
+      id="home"
       className="relative bg-white dark:bg-gray-900 pt-20 pb-10 lg:pb-14 overflow-hidden"
     >
       {/* Fondos suaves */}
